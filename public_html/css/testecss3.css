@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 20, 2015, 11:23:10 AM
+    Author     : ubuntu
+*/
+
+h2 ~ p {
+  font-style: italic;
+}
+
+/*
+li:first-child{
+    color:blue;
+}
+
+li:last-child{
+    color:red;
+    
+}
+*/
+li:nth-child(2n){/*Elementos pares*/
+    color:green;
+    
+}
+
+li:nth-child(2n+1){/*Elementos impares*/
+    color: blue;
+    
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color:yellow;
+    
+}
+.primiraletragrande:first-letter{
+    font-size: 200%;
+}
+p:first-line{
+    font-style: italic;
+}
+
+.comcolchete:before{
+    content:'[';
+}
+
+.comcolchete:after{
+    content:']';
+}
+
+a[href^='http://']:after {
+  content: '  (externo)';
+}

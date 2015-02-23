@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 10, 2015, 4:49:54 PM
+    Author     : ubuntu
+*/
+body{
+    font-family: "Arial", "Helvetica", sans-serif;
+    color: #333333;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+p{
+    color: blue;
+    padding: 50px 30px 100px 150px;
+    margin: 50px;
+    background-color: yellow;
+    text-align: left;
+    width: 300px;
+    
+    
+}
+h1{
+    background-image: url( ../img/sobre-background.jpg)
+    
+}
+.divparatestar{
+    border-color: red;
+    border-style: solid;
+    border-width: 3px;
+    height: 50px;
+    width: 100px;
+    
+}
+.listadiferente{
+    line-height: 30px;//espaco entre as linhas
+    letter-spacing: 5px; //espaco entre as letras
+    word-spacing: 10px; //espaco entre as palavras
+    text-indent: 30px; //identacao da primeira linha do texto
+    
+}
+#rodape figure{
+    background-color: #F2EDED;
+    border: 1px solid #333333;
+    text-align: center;
+}
+#rodape figcaption{
+    font-style: italic;
+}
