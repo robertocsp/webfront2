@@ -8,3 +8,38 @@ and open the template in the editor.
     Author     : ubuntu
 */
 
+.a{
+    width: 50px;
+    height: 50px;
+    border: 5px solid black;
+    background-color: blue;
+    border-radius: 15px;
+}
+
+.b{
+    width: 50px;
+    height: 50px;
+    border: 5px solid black;
+    background-color: blue;
+    border-radius: 1px 20px;
+}
+
+.c{
+    width: 50px;
+    height: 50px;
+    border: 5px solid black;
+    background-color: blue;
+    border-radius: 1px 20px 50px;
+}
+
+.d{
+    width: 50px;
+    height: 50px;
+    border: 5px solid black;
+    background-color: blue;
+    border-radius:  5px 30px 50px 100px;
+}
+
+p{
+    text-shadow: 20px 10px red;
+}
